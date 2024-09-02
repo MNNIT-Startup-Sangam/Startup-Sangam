@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Caveat, Gantari } from "next/font/google"; // Import Caveat and Gantari fonts
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+// Import Caveat and Gantari fonts
+const caveat = Caveat({
+  subsets: ["latin"], // Specify the subset
+  variable: "--font-caveat", // Set a CSS variable for the font
+  weight: ["400", "700"], // Optional: Specify weights if needed
+});
 
-const inter = Inter({ subsets: ["latin"] });
+const gantari = Gantari({
+  subsets: ["latin"], // Specify the subset
+  variable: "--font-gantari", // Set a CSS variable for the font
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Optional: Specify weights if needed
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +27,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      {/* Apply the fonts */}
+      <body className={`${caveat.className} ${gantari.className}`}>
+
+        {children}
+      </body>
     </html>
   );
 }

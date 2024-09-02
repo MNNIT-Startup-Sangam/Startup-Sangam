@@ -1,13 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 8, 65, 92;
+  --font-gantari: "Gantari", sans-serif;
+  --font-caveat: "Caveat", cursive;
+}
+.caveat-regular {
+  font-family: var(--font-caveat);
+  font-weight: 400;
 }
 
+.caveat-bold {
+  font-family: var(--font-caveat);
+  font-weight: 700;
+}
+
+.gantari-regular {
+  font-family: var(--font-gantari);
+  font-weight: 400;
+}
+
+.gantari-bold {
+  font-family: var(--font-gantari);
+  font-weight: 700;
+}
+
+.gantari-light {
+  font-family: var(--font-gantari);
+  font-weight: 300;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255,255,255;
