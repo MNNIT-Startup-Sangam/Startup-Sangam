@@ -16,6 +16,9 @@ const config: Config = {
         fontFamily: {
           custom1: ['Roboto', 'sans-serif'], // Adding 'Roboto' as the default sans font
         },
+        colors: {
+          'body-color': '#f8f9fa', 
+        },
     },
   },
   plugins: [],

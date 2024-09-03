@@ -32,6 +32,7 @@ export function Herosection() {
   ];
 
   return (
+    <section id="hero" className="hero-section">
     <ImagesSlider className="absolute z-0 h-[40rem]" images={images}>
       <motion.div
         initial={{
@@ -65,5 +66,6 @@ export function Herosection() {
         </button>
       </motion.div>
     </ImagesSlider>
+    </section>
   );
 }

@@ -148,8 +148,10 @@ export function TimelineDemo() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full bg-transparent">
+    <div className="bg-white p-4">
       <Timeline data={data} />
     </div>
+  </div>
   );
 }
