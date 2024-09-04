@@ -40,9 +40,9 @@ export default function Home() {
         className="cursor-pointer mt-96 flex justify-center items-center"
       >
         {/* Scroll Indicator */}
-        <p className="text-white text-lg">Scroll Down</p>
+        {/* <p className="text-white text-lg"></p> */}
       </div>
-      <div id="timeline" ref={timelineRef} className="mt-96 bg-white">
+      <div id="timeline" ref={timelineRef} className="mt-48">
         <TimelineDemo />
       </div>
       <div>
