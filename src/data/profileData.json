@@ -1,11 +1,57 @@
-{
-    "name": "Major Vandana Sharma",
-    "title": "Ex Army",
-    "description": "Major Vandana Sharma is a woman leader, entrepreneur, TEDx speaker, HR industry leader, career coach, and ex-military officer from the Indian Army. Her contribution.",
+[
+  {
+    "name": "Dr. Aryan Kapoor",
+    "title": "Neuroscientist",
+    "description": "Dr. Aryan Kapoor is a leading neuroscientist, keynote speaker, and published author specializing in neurodegenerative diseases. His research has contributed to groundbreaking advancements in brain health and cognitive function.",
+    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.31.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/aryankapoor",
+      "twitter": "https://twitter.com/aryankapoor",
+      "facebook": "https://www.facebook.com/aryankapoor"
+    }
+  },
+  {
+    "name": "Sophia Patel",
+    "title": "Tech Entrepreneur",
+    "description": "Sophia Patel is the CEO of a successful AI startup and has been recognized as one of the top female entrepreneurs under 30. She is a passionate advocate for women in tech and regularly speaks at global technology conferences.",
     "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.32.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/vandanasharma",
-      "twitter": "https://twitter.com/vandanasharma",
-      "facebook": "https://www.facebook.com/vandanasharma"
+      "linkedin": "https://www.linkedin.com/in/sophiapatel",
+      "twitter": "https://twitter.com/sophiapatel",
+      "facebook": "https://www.facebook.com/sophiapatel"
+    }
+  },
+  {
+    "name": "James Stewart",
+    "title": "Civil Rights Activist",
+    "description": "James Stewart is a renowned civil rights activist and community leader. With over 20 years of experience, he has worked tirelessly to promote equality, justice, and inclusion across marginalized communities.",
+    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.45.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/jamesstewart",
+      "twitter": "https://twitter.com/jamesstewart",
+      "facebook": "https://www.facebook.com/jamesstewart"
+    }
+  },
+  {
+    "name": "Emily Nguyen",
+    "title": "Sustainability Expert",
+    "description": "Emily Nguyen is a sustainability expert and environmental consultant who works with multinational corporations to reduce their carbon footprint. Her innovative strategies have helped companies adopt greener practices and achieve sustainability goals.",
+    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.47 (3).jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/emilynguyen",
+      "twitter": "https://twitter.com/emilynguyen",
+      "facebook": "https://www.facebook.com/emilynguyen"
+    }
+  },
+  {
+    "name": "Rahul Mehta",
+    "title": "Venture Capitalist",
+    "description": "Rahul Mehta is a venture capitalist and startup mentor who specializes in funding tech-based companies in emerging markets. He has successfully supported over 50 startups in securing growth-stage investments.",
+    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.48.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/rahulmehta",
+      "twitter": "https://twitter.com/rahulmehta",
+      "facebook": "https://www.facebook.com/rahulmehta"
     }
   }
+]

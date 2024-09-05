@@ -85,31 +85,33 @@ export const ImagesSlider = ({
 
   const slideVariants = {
     initial: {
-      scale: 0,
+      scale: 0.95,
       opacity: 0,
-      rotateX: 45,
+      y: "20%",
     },
     visible: {
       scale: 1,
-      rotateX: 0,
+      y: 0,
       opacity: 1,
       transition: {
-        duration: 0.5,
-        ease: [0.645, 0.045, 0.355, 1.0],
+        duration: 1.2, // Smooth animation duration
+        ease: [0.25, 0.1, 0.25, 1], // easeInOut for smoother effect
       },
     },
     upExit: {
-      opacity: 1,
-      y: "-150%",
+      opacity: 0,
+      y: "-100%",
       transition: {
         duration: 1,
+        ease: [0.25, 0.1, 0.25, 1],
       },
     },
     downExit: {
-      opacity: 1,
-      y: "150%",
+      opacity: 0,
+      y: "100%",
       transition: {
         duration: 1,
+        ease: [0.25, 0.1, 0.25, 1],
       },
     },
   };
