@@ -1,6 +1,8 @@
-import React from 'react';
-import { Linkedin, Twitter, Facebook } from 'lucide-react';
-import profileData from '@/data/profileData.json';
+import React from "react";
+import { Linkedin, Twitter, Facebook } from "lucide-react";
+import profileData from "@/data/profileData.json";
+import { FollowerPointerCard } from "./ui/following-pointer";
+import Image from "next/image";
 
 const ProfileSection: React.FC = () => {
   interface ProfileData {
@@ -16,7 +18,7 @@ const ProfileSection: React.FC = () => {
   }
 
   return (
-    <div className="bg-navy-900 text-white p-12 relative">
+    <div className="bg-navy-900 text-white pl-20 relative">
       {/* Decorative squares */}
       <div className="absolute top-8 right-24 w-8 h-8 border border-gray-600 rotate-45"></div>
       <div className="absolute bottom-8 right-8 w-16 h-16 border border-gray-600 rotate-45"></div>
@@ -24,15 +26,36 @@ const ProfileSection: React.FC = () => {
       {profileData.map((profile: ProfileData, index: number) => (
         <div
           key={index}
-          className="flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12"
+          className="pl-10 flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12"
         >
-          {/* Image and Name Section */}
-          <div className="flex flex-col items-center md:w-1/3 mb-6 md:mb-0">
-            <div className="w-60 h-60 rounded-full overflow-hidden shadow-lg">
-              <img src={profile.imageUrl} alt={profile.name} className="w-full h-full object-cover" />
+          {/* Image and Name Section wrapped inside FollowerPointerCard */}
+          <FollowerPointerCard
+            title={
+              <div className="flex space-x-2 items-center">
+                <Image
+                  src={profile.imageUrl}
+                  height="60"
+                  width="60"
+                  alt={profile.name}
+                  className="rounded-full border-2 border-white"
+                />
+                <p className="text-3xl font-bold">{profile.name}</p>
+              </div>
+            }
+          >
+            <div className="flex flex-col items-center md:w-1/3 mb-6 md:mb-0">
+              <div className="w-60 h-60 rounded-full overflow-hidden shadow-lg">
+                <Image
+                  src={profile.imageUrl}
+                  alt={profile.name}
+                  width={240}
+                  height={240}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h1 className="text-2xl text-center font-bold">{profile.name}</h1>
             </div>
-            <h2 className="text-3xl font-bold mt-4">{profile.name}</h2>
-          </div>
+          </FollowerPointerCard>
 
           {/* Title and Description Section */}
           <div className="md:w-2/3">

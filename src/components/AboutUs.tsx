@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div className="relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row">
       <div className="w-2/3 relative z-10">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           The Innovation and Incubation Hub MNNIT Foundation, IIHMF at Motilal
           Nehru National Institute of Technology Allahabad is more than just a
           space, it is where ideas, research, and business plans come to life.
@@ -17,25 +17,24 @@ export default function AboutUs() {
           expectations, and people can make the connections required to support
           and access vital information, turning their ideas into reality.
         </p>
-        <h1 className="text-4xl font-bold mb-6">About IIC and its Events</h1>
-        <p className="mb-4">
-          The Ministry of Education (formally known as Ministry of Human
-          Resource Development), Government of India, set up the MHRD Innovation
-          Cell to encourage creativity and new ideas in colleges and
-          universities. MIC’s goal is to inspire young students by helping them
-          develop their ideas early on, which is why they created the
-          Institution’s Innovation Councils (IICs) to bring this vision to life.
-          These IICs are all about action! They host engaging events like
-          workshops on creative thinking and startup strategies, hackathons to
-          develop innovative solutions, expert talks on industry trends, pitch
-          sessions to connect ideas with investors, and startup showcases. In
-          the past, MNNIT's IIC has had the privilege of hosting influential
-          figures such as Sandeep Jain(CEO of GeeksforGeeks), TEDx speakers like
-          Nisha Khanna, and even retired army officers like Major Vandana
-          Sharma. You’ll also find innovation competitions, mentorship sessions
-          and innovation festivals that celebrate creativity and hands-on
-          experience.
+        <h1 className="text-4xl font-bold mb-6">About IIC</h1>
+        <p className="mb-4 text-white">
+        The Ministry of Education (formerly the Ministry of Human Resource Development), Government of India, established the MHRD Innovation Cell to promote creativity and foster innovation within higher education institutions. The main objective of the Innovation Cell is to cultivate an entrepreneurial spirit among students by supporting them in developing their ideas from an early stage. To achieve this, the Ministry launched Institution's Innovation Councils (IICs) across universities and colleges, empowering them to drive innovative thinking and actions. IICs focus on practical implementation, guiding students to create and develop new solutions through a structured framework.
         </p>
+        <h1 className="text-4xl font-bold mb-6">Events Hosted by IIC</h1>
+<p className="mb-4 text-white">
+  MNNIT's IIC organizes a variety of events to promote innovation and entrepreneurship among students, such as:
+  <ul className="list-disc ml-5">
+    <li>Workshops on creative thinking and startup strategies</li>
+    <li>Hackathons to develop innovative solutions</li>
+    <li>Expert talks on industry trends</li>
+    <li>Pitch sessions to connect ideas with investors</li>
+    <li>Startup showcases featuring emerging businesses</li>
+    <li>Guest speakers like Sandeep Jain, TEDx speaker Nisha Khanna, and Major Vandana Sharma</li>
+    <li>Innovation competitions, mentorship sessions, and festivals</li>
+  </ul>
+</p>
+
       </div>
 
       {/* Interactive Globe on the right side */}
