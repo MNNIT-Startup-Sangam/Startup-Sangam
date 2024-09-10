@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Caveat, Gantari } from "next/font/google"; // Import Caveat and Gantari fonts
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-// Import Caveat and Gantari fonts
+import Footer from "@/components/Footer"; // Import Footer component
+
 const caveat = Caveat({
   subsets: ["latin"], // Specify the subset
   variable: "--font-caveat", // Set a CSS variable for the font
@@ -27,10 +28,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* Apply the fonts */}
-      <body className={`${caveat.className} ${gantari.className}`}>
-
-        {children}
+      <body className={`${caveat.variable} ${gantari.variable}`}>
+        <Navbar /> {/* Add Navbar component */}
+        <main>{children}</main> {/* Main content area */}
+        <Footer /> {/* Add Footer component */}
       </body>
     </html>
   );
