@@ -5,11 +5,14 @@ import { Timeline } from "@/components/ui/timeline";
 export function TimelineDemo() {
   const data = [
     {
-      title: "2024",
+      title: "Cohort 3.0",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            Do you have what it takes to present your vision to the thousands in the crowd? Has it always been your dream to transform your idea into a multibillion-dollar venture? Or is it just that your heart beats for thrill and you dare to walk the ‘The Road Not Taken’? Your reason could be any but what remains common is your hunger for a majestic Entrepreneurial journey. Cohort 3.0 brings to you the one opportunity ‘The Entrepreneur’ inside you was waiting for.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            Unleash your startup potential at the Pitching Sessions, where aspiring entrepreneurs present their innovative ideas to a panel of seasoned investors and experts. Receive invaluable advice from experienced Business minds. Most refined pitchers stand a chance to secure funding from the leading Industry professionals. Let the ‘Best in the Industry’ guide you in your run for what could be an ‘Unprecedented Successful Entrepreneurial Journey’.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -45,42 +48,37 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Early 2023",
+      title: "Networking",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
+            “The bonds we forge in the present are the ones that support us during the adversaries in the future”. The Networking Event provides just the opportunity to our young Business Tycoons. We bring the wisest mentors, most-seasoned investors, and equally-passionate fellow entrepreneurs under the same roof. It is the perfect setting to forge new partnerships, discuss collaboration opportunities, and expand your network in the realm of entrepreneurship. The connections you build here would prove to be the key to your future success.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
+              src="https://assets.aceternity.com/templates/startup-1.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
+              src="https://assets.aceternity.com/templates/startup-2.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
+              src="https://assets.aceternity.com/templates/startup-3.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
+              src="https://assets.aceternity.com/templates/startup-4.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -90,54 +88,83 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Changelog",
+      title: "Expert Talks",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            “The way of success is the way of continuous pursuit of Knowledge”. The true identity of an entrepreneur lies in his passion to constantly widen his horizons of knowledge.
           </p>
-          <div className="mb-8">
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Card grid component
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Random file upload lol
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
-            </div>
-            <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
-            </div>
-          </div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            This is the chance to gain priceless insights from leading Industry experts and Sharpest Minds in the Domain! Our young minds possess a spark in our eyes and a fire in our hearts. What’s lacking is the precious wisdom that one gains through toil and experience. These sessions would showcase renowned business experts imparting wisdom that would pave the way to success. It's a golden opportunity to learn from those who themselves have navigated the entrepreneurial landscape, offering you the inspiration and knowledge needed to succeed in your own entrepreneurial journey.
+          </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
+              src="https://assets.aceternity.com/templates/startup-1.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/features-section.png"
-              alt="feature template"
+              src="https://assets.aceternity.com/templates/startup-2.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
+              src="https://assets.aceternity.com/templates/startup-3.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <Image
-              src="https://assets.aceternity.com/cards.png"
-              alt="cards template"
+              src="https://assets.aceternity.com/templates/startup-4.webp"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Startup Success Stories",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            “You would never witness the power of an idea unless it is put to Action.” Millions of ideas which have the power to transform this world into a better place are born every day, and millions of them die the same day. Success is an illusion for the ones who come up with the brightest ideas. It becomes a reality for those who dare to transform them into action. Startup Success Stories brings to the stage these ‘Entrepreneurial Daredevils’ whose determination and ambitions introduced to the world the ventures that would continue to inspire and impress the entrepreneurial young minds for time immemorial. “Practical knowledge is the asset that pays dividends for decades to come”. These Industry pundits would provide you with just the practical advice that your passion was craving for.
+          </p>
+          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+            Brace yourselves for an inspirational journey as these stories will ignite your entrepreneurial drive.
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src="https://assets.aceternity.com/templates/startup-1.webp"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="https://assets.aceternity.com/templates/startup-2.webp"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="https://assets.aceternity.com/templates/startup-3.webp"
+              alt="startup template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+            <Image
+              src="https://assets.aceternity.com/templates/startup-4.webp"
+              alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
@@ -147,11 +174,10 @@ export function TimelineDemo() {
       ),
     },
   ];
+
   return (
-    <div className="w-full">
-      {/* <div className="bg-white p-4"> */}
+    <div className="flex flex-col gap-8">
       <Timeline data={data} />
     </div>
-    // </div>
   );
 }
