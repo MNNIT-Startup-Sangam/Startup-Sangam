@@ -10,6 +10,7 @@ import { BackgroundBeamsDemo } from "@/components/Speakers";
 import ProfileSection from "@/components/SpeakerDetails";
 
 
+
 export default function Home() {
   const timelineRef = useRef<HTMLDivElement>(null);
 
