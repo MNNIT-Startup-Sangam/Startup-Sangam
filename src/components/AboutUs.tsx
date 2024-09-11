@@ -6,7 +6,7 @@ export default function AboutUs() {
     <div className="relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row">
       <div className="w-2/3 relative z-10">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
-        <p className="mb-4 text-white">
+        <p className="mb-4 text-white text-justify">
           The Innovation and Incubation Hub MNNIT Foundation, IIHMF at Motilal
           Nehru National Institute of Technology Allahabad is more than just a
           space, it is where ideas, research, and business plans come to life.
@@ -17,8 +17,8 @@ export default function AboutUs() {
           expectations, and people can make the connections required to support
           and access vital information, turning their ideas into reality.
         </p>
-        <h1 className="text-4xl font-bold mb-6">About IIC</h1>
-        <p className="mb-4 text-white">
+        <h1 className="text-4xl font-bold mb-6 text-justify">About IIC</h1>
+        <p className="mb-4 text-white text-justify">
           The Ministry of Education (formerly the Ministry of Human Resource
           Development), Government of India, established the MHRD Innovation
           Cell to promote creativity and foster innovation within higher
@@ -31,11 +31,11 @@ export default function AboutUs() {
           students to create and develop new solutions through a structured
           framework.
         </p>
-        <h1 className="text-4xl font-bold mb-6">Events Hosted by IIC</h1>
-        <div className="mb-4 text-white">
+        <h1 className="text-4xl font-bold mb-6 text-justify">Events Hosted by IIC</h1>
+        <div className="mb-4 text-white text-justify">
           MNNIT's IIC organizes a variety of events to promote innovation and
           entrepreneurship among students, such as:
-          <ul className="list-disc ml-5">
+          <ul className="list-disc ml-5 text-justify">
             <li>Workshops on creative thinking and startup strategies</li>
             <li>Hackathons to develop innovative solutions</li>
             <li>Expert talks on industry trends</li>

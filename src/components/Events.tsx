@@ -125,12 +125,12 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             “The way of success is the way of continuous pursuit of Knowledge”.
             The true identity of an entrepreneur lies in his passion to
             constantly widen his horizons of knowledge.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             This is the chance to gain priceless insights from leading Industry
             experts and Sharpest Minds in the Domain! Our young minds possess a
             spark in our eyes and a fire in our hearts. What’s lacking is the
