@@ -13,7 +13,7 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             Do you have what it takes to present your vision to the thousands in
             the crowd? Has it always been your dream to transform your idea into
             a multibillion-dollar venture? Or is it just that your heart beats
@@ -73,7 +73,7 @@ export function TimelineDemo() {
 
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             “The bonds we forge in the present are the ones that support us
             during the adversaries in the future”. The Networking Event provides
             just the opportunity to our young Business Tycoons. We bring the
@@ -182,7 +182,7 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             {" "}
             “You would never witness the power of an idea unless it is put to
             Action.” Millions of ideas which have the power to transform this
@@ -197,7 +197,7 @@ export function TimelineDemo() {
             for decades to come”. These Industry pundits would provide you with
             just the practical advice that your passion was craving for.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className="text-emerald-50 font-sans mb-8">
             {" "}
             Brace yourselves for an inspirational journey as these stories will
             ignite your entrepreneurial drive.
