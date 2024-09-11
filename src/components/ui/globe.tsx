@@ -247,8 +247,16 @@ export function World(props: WorldProps) {
   const scene = new Scene();
   scene.fog = new Fog(0xffffff, 400, 2000);
   return (
-    <div style={{ width: "400px", height: "400px" }}>
+    <div
+      style={{
+        width: "400px",
+        height: "400px",
+
+        overflow: "hidden",
+      }}
+    >
       <Canvas
+        style={{ width: "100%", height: "100%" }}
         scene={scene}
         camera={new PerspectiveCamera(50, aspect, 180, 1800)}
       >

@@ -19,26 +19,39 @@ export default function AboutUs() {
         </p>
         <h1 className="text-4xl font-bold mb-6">About IIC</h1>
         <p className="mb-4 text-white">
-        The Ministry of Education (formerly the Ministry of Human Resource Development), Government of India, established the MHRD Innovation Cell to promote creativity and foster innovation within higher education institutions. The main objective of the Innovation Cell is to cultivate an entrepreneurial spirit among students by supporting them in developing their ideas from an early stage. To achieve this, the Ministry launched Institution's Innovation Councils (IICs) across universities and colleges, empowering them to drive innovative thinking and actions. IICs focus on practical implementation, guiding students to create and develop new solutions through a structured framework.
+          The Ministry of Education (formerly the Ministry of Human Resource
+          Development), Government of India, established the MHRD Innovation
+          Cell to promote creativity and foster innovation within higher
+          education institutions. The main objective of the Innovation Cell is
+          to cultivate an entrepreneurial spirit among students by supporting
+          them in developing their ideas from an early stage. To achieve this,
+          the Ministry launched Institution's Innovation Councils (IICs) across
+          universities and colleges, empowering them to drive innovative
+          thinking and actions. IICs focus on practical implementation, guiding
+          students to create and develop new solutions through a structured
+          framework.
         </p>
         <h1 className="text-4xl font-bold mb-6">Events Hosted by IIC</h1>
-<div className="mb-4 text-white">
-  MNNIT's IIC organizes a variety of events to promote innovation and entrepreneurship among students, such as:
-  <ul className="list-disc ml-5">
-    <li>Workshops on creative thinking and startup strategies</li>
-    <li>Hackathons to develop innovative solutions</li>
-    <li>Expert talks on industry trends</li>
-    <li>Pitch sessions to connect ideas with investors</li>
-    <li>Startup showcases featuring emerging businesses</li>
-    <li>Guest speakers like Sandeep Jain, TEDx speaker Nisha Khanna, and Major Vandana Sharma</li>
-    <li>Innovation competitions, mentorship sessions, and festivals</li>
-  </ul>
-</div>
-
+        <div className="mb-4 text-white">
+          MNNIT's IIC organizes a variety of events to promote innovation and
+          entrepreneurship among students, such as:
+          <ul className="list-disc ml-5">
+            <li>Workshops on creative thinking and startup strategies</li>
+            <li>Hackathons to develop innovative solutions</li>
+            <li>Expert talks on industry trends</li>
+            <li>Pitch sessions to connect ideas with investors</li>
+            <li>Startup showcases featuring emerging businesses</li>
+            <li>
+              Guest speakers like Sandeep Jain, TEDx speaker Nisha Khanna, and
+              Major Vandana Sharma
+            </li>
+            <li>Innovation competitions, mentorship sessions, and festivals</li>
+          </ul>
+        </div>
       </div>
 
       {/* Interactive Globe on the right side */}
-      <div className="w-1/3 flex items-center justify-center relative z-0">
+      <div className="w-1/3 flex items-center justify-center absolute top-0 right-0 h-full z-0 overflow-hidden">
         <GlobeDemo />
       </div>
     </div>
