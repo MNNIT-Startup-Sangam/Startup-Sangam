@@ -26,7 +26,9 @@ const ProfileSection: React.FC = () => {
       {profileData.map((profile: ProfileData, index: number) => (
         <div
           key={index}
-          className="flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12"
+          className={`flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12 ${
+            index % 2 === 1 ? "md:flex-row-reverse" : ""
+          }`}
         >
           {/* Image and Name Section wrapped inside FollowerPointerCard */}
           <FollowerPointerCard

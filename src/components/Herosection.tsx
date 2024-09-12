@@ -46,7 +46,7 @@ export function Herosection() {
           }}
           className="z-50 flex flex-col justify-center items-center"
         >
-          <motion.p className="pl-5 text-lg md:text-xl md:pl-3 font-semibold self-start text-start bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] ">
+          <motion.p className="pl-5 text-lg md:text-[2rem] md:pl-3 font-semibold self-start text-start bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] ">
             MNNIT
           </motion.p>
           <motion.p className="font-bold text-4xl md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] pb-1">
