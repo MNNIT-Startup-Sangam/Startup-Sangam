@@ -66,7 +66,8 @@ module.exports = {
               custom1: ['Roboto', 'sans-serif'], // Adding 'Roboto' as the default sans font
             },
             colors: {
-              'body-color': '#f8f9fa', 
+              'body-color': '#f8f9fa',
+              'custom-cyan-border': '#90e0ef', 
             },
           },
   },

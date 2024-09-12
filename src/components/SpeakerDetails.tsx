@@ -20,13 +20,15 @@ const ProfileSection: React.FC = () => {
   return (
     <div className="bg-navy-900 text-white px-4 py-8 md:pl-20 relative">
       {/* Decorative squares */}
-      <div className="absolute top-8 right-8 md:right-24 w-6 h-6 md:w-8 md:h-8 border border-gray-600 rotate-45"></div>
-      <div className="absolute bottom-8 right-4 md:right-8 w-10 h-10 md:w-16 md:h-16 border border-gray-600 rotate-45"></div>
+      <div className="absolute top-8 right-8 md:right-24 w-6 h-6 md:w-8 md:h-8 border border-custom-cyan-border rotate-45"></div>
+      <div className="absolute bottom-8 right-4 md:right-8 w-10 h-10 md:w-16 md:h-16 border border-custom-cyan-border rotate-45"></div>
 
       {profileData.map((profile: ProfileData, index: number) => (
         <div
           key={index}
-          className="flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12"
+          className={`flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12 ${
+            index % 2 === 1 ? "md:flex-row-reverse" : ""
+          }`}
         >
           {/* Image and Name Section wrapped inside FollowerPointerCard */}
           <FollowerPointerCard
