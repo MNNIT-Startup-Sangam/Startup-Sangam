@@ -13,7 +13,7 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             Do you have what it takes to present your vision to the thousands in
             the crowd? Has it always been your dream to transform your idea into
             a multibillion-dollar venture? Or is it just that your heart beats
@@ -22,7 +22,7 @@ export function TimelineDemo() {
             majestic Entrepreneurial journey. Cohort 3.0 brings to you the one
             opportunity ‘The Entrepreneur’ inside you was waiting for.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             Unleash your startup potential at the Pitching Sessions, where
             aspiring entrepreneurs present their innovative ideas to a panel of
             seasoned investors and experts. Receive invaluable advice from
@@ -73,7 +73,7 @@ export function TimelineDemo() {
 
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             “The bonds we forge in the present are the ones that support us
             during the adversaries in the future”. The Networking Event provides
             just the opportunity to our young Business Tycoons. We bring the
@@ -125,12 +125,12 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" text-m text-emerald-50 font-sans mb-8">
             “The way of success is the way of continuous pursuit of Knowledge”.
             The true identity of an entrepreneur lies in his passion to
             constantly widen his horizons of knowledge.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             This is the chance to gain priceless insights from leading Industry
             experts and Sharpest Minds in the Domain! Our young minds possess a
             spark in our eyes and a fire in our hearts. What’s lacking is the
@@ -182,7 +182,7 @@ export function TimelineDemo() {
       ),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             {" "}
             “You would never witness the power of an idea unless it is put to
             Action.” Millions of ideas which have the power to transform this
@@ -197,7 +197,7 @@ export function TimelineDemo() {
             for decades to come”. These Industry pundits would provide you with
             just the practical advice that your passion was craving for.
           </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-m md:text-emerald-50 font-sans mb-8">
+          <p className=" dark:text-neutral-200 text-m text-emerald-50 font-sans mb-8">
             {" "}
             Brace yourselves for an inspirational journey as these stories will
             ignite your entrepreneurial drive.
@@ -238,8 +238,8 @@ export function TimelineDemo() {
   ];
 
   return (
-    <div>
-      <h1 className="pt-40 text-3xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] font-bold text-center">
+    <div id="events">
+      <h1 className="pt-40 text-3xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] font-bold text-center mt-96">
         EVENTS
       </h1>
       <div className="flex flex-col ">

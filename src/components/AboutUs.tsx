@@ -3,7 +3,10 @@ import { GlobeDemo } from "./Globe";
 
 export default function AboutUs() {
   return (
-    <div className="relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row">
+    <div
+      id="about"
+      className=" relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row"
+    >
       <div className="w-full md:w-2/3 relative z-20 overflow-visible">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
         <p className="mb-4 text-white text-justify">
