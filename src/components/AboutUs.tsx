@@ -4,7 +4,7 @@ import { GlobeDemo } from "./Globe";
 export default function AboutUs() {
   return (
     <div className="relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row">
-      <div className="w-2/3 relative z-10">
+      <div className="w-full md:w-2/3 relative z-20 overflow-visible">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
         <p className="mb-4 text-white text-justify">
           The Innovation and Incubation Hub MNNIT Foundation, IIHMF at Motilal
@@ -51,7 +51,7 @@ export default function AboutUs() {
       </div>
 
       {/* Interactive Globe on the right side */}
-      <div className="w-1/3 flex items-center justify-center absolute top-0 right-0 h-full z-0">
+      <div className="  flex items-center justify-center absolute top-0 right-0 h-full z-10 overflow-clip">
         <GlobeDemo />
       </div>
     </div>
