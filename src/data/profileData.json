@@ -1,57 +1,92 @@
 [
   {
-    "name": "Dr. Aryan Kapoor",
-    "title": "Neuroscientist",
-    "description": "Dr. Aryan Kapoor is a leading neuroscientist, keynote speaker, and published author specializing in neurodegenerative diseases. His research has contributed to groundbreaking advancements in brain health and cognitive function.",
-    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.31.jpeg",
+    "name": "Jitendra Singh Parihar",
+    "title": "Founder & CEO of Medixa Global LLP",
+    "description": "Jitendra Singh Parihar is the founder and CEO of Medixa Global LLP, a leader in healthcare innovation known for its advanced digital health solutions. Jitendra, a gold medalist from IIT BHU, has spearheaded numerous transformative initiatives that have elevated patient care and streamlined healthcare operations. He has been featured on esteemed platforms like Forbes India, The Economic Times, and YourStory, where his contributions to the healthcare industry have been widely recognized. As the co-host of STARTUPSANGAM 2024, Jitendra brings his extensive knowledge and visionary leadership to inspire and guide aspiring entrepreneurs and industry professionals.",
+    "imageUrl": "/assets/images/Jitendra Singh.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/aryankapoor",
-      "twitter": "https://twitter.com/aryankapoor",
-      "facebook": "https://www.facebook.com/aryankapoor"
+      "linkedin": "https://www.linkedin.com/in/jitendra-singh-parihar-708b5b21b/?originalSubdomain=in"
     }
   },
   {
-    "name": "Sophia Patel",
-    "title": "Tech Entrepreneur",
-    "description": "Sophia Patel is the CEO of a successful AI startup and has been recognized as one of the top female entrepreneurs under 30. She is a passionate advocate for women in tech and regularly speaks at global technology conferences.",
-    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.32.jpeg",
+    "name": "Arvind Dixit",
+    "title": "Founder of Advance Tech",
+    "description": "Arvind Dixit founded Advance Tech, a leader in technological innovation and product development. With a strong background in engineering, he has driven the company's success in delivering cutting-edge solutions across various industries. Recognized for his expertise, Arvind is a frequent speaker on platforms like TechCrunch and Business Today, where he shares insights on emerging technologies and entrepreneurship.",
+    "imageUrl": "/assets/images/Arvind Dixit.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/sophiapatel",
-      "twitter": "https://twitter.com/sophiapatel",
-      "facebook": "https://www.facebook.com/sophiapatel"
+      "linkedin": "https://www.linkedin.com/in/arvind-dixit-99a64b22/?originalSubdomain=in"
     }
   },
   {
-    "name": "James Stewart",
-    "title": "Civil Rights Activist",
-    "description": "James Stewart is a renowned civil rights activist and community leader. With over 20 years of experience, he has worked tirelessly to promote equality, justice, and inclusion across marginalized communities.",
-    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.45.jpeg",
+    "name": "Rupesh Kumar",
+    "title": "Researcher at Yamaha Motor India",
+    "description": "Rupesh Kumar is an accomplished researcher at Yamaha Motor India, specializing in R&D with a focus on computer vision, video processing, and image processing. A graduate of IIT Kanpur, Rupesh brings expertise in conventional and advanced methods, including deep learning and machine learning, to tackle complex problems.",
+    "imageUrl": "/assets/images/Rupesh Kumar.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/jamesstewart",
-      "twitter": "https://twitter.com/jamesstewart",
-      "facebook": "https://www.facebook.com/jamesstewart"
+      "linkedin": "https://www.linkedin.com/in/rupesh-kumar-b07ba22b/?originalSubdomain=in"
     }
   },
   {
-    "name": "Emily Nguyen",
-    "title": "Sustainability Expert",
-    "description": "Emily Nguyen is a sustainability expert and environmental consultant who works with multinational corporations to reduce their carbon footprint. Her innovative strategies have helped companies adopt greener practices and achieve sustainability goals.",
-    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.47 (3).jpeg",
+    "name": "Surojit Bose",
+    "title": "Partner at Climate9ers Capital",
+    "description": "Surojit Bose is a venture capitalist and Partner at Climate9ers Capital, a SEBI-registered angel fund. He also serves as an Independent Director on the board of Shivalic Power Control Ltd. As a co-founder of LeadInvent Pharma Inc., he has been instrumental in developing innovative pharmaceutical solutions, including GBGel for residual brain tumors. His work centers on fostering innovation and nurturing the entrepreneurial ecosystem.",
+    "imageUrl": "/assets/images/Surojit Bose.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/emilynguyen",
-      "twitter": "https://twitter.com/emilynguyen",
-      "facebook": "https://www.facebook.com/emilynguyen"
+      "linkedin": "https://www.linkedin.com/in/surojitbose/?originalSubdomain=in"
     }
   },
   {
-    "name": "Rahul Mehta",
-    "title": "Venture Capitalist",
-    "description": "Rahul Mehta is a venture capitalist and startup mentor who specializes in funding tech-based companies in emerging markets. He has successfully supported over 50 startups in securing growth-stage investments.",
-    "imageUrl": "/assets/images/WhatsApp Image 2024-08-31 at 16.39.48.jpeg",
+    "name": "Anupam Anand",
+    "title": "CEO & Co-Founder of Deltron Technologies Pvt Ltd",
+    "description": "Anupam Anand is the CEO and Co-Founder of Deltron Technologies Pvt Ltd, specializing in IT services, solutions, and digital marketing. He also serves as a Managing Partner at Inceptra Solutions LLC in the USA, focusing on staff augmentation and talent placement. As the President of the Whiteboard Education and Research Foundation, Anupam is dedicated to bridging the gap between academia and industry. An experienced career coach and startup mentor, he has guided over 25,000 students and is recognized as one of Tradeflock's '40 Under 40' business leaders in India. Anupam is also the host of 'The Changemaker Show' on YouTube, where he shares insights from industry experts.",
+    "imageUrl": "/assets/images/Anupam Anand.jpeg",
     "socialLinks": {
-      "linkedin": "https://www.linkedin.com/in/rahulmehta",
-      "twitter": "https://twitter.com/rahulmehta",
-      "facebook": "https://www.facebook.com/rahulmehta"
+      "linkedin": "https://www.linkedin.com/in/anupam-anand-291653177/?originalSubdomain=in"
+    }
+  },
+  {
+    "name": "Lalit Ambastha",
+    "title": "Founder of Patentwire and co-founder of IPBazzaar",
+    "description": "Lalit Ambastha is an esteemed IP Attorney and Strategist with over 18 years of experience in Intellectual Property. He is the founder of Patentwire and a co-founder of IPBazzaar, NewtonsLaw, InkPat, and Palani LLC. Lalit also serves as a founding member at RIPA and an ESG Advisor at IASE. He is recognized for his expertise in IP prosecution, licensing, valuation, and technology transfer, working with clients such as DMRC, GMR, Honda, and Novartis. Lalit has held guest faculty positions at prestigious institutions and contributes to IP awareness programs with the Ministry of MSME, Govt. of India.",
+    "imageUrl": "/assets/images/lalit ambastha.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/lalitambastha/?originalSubdomain=in"
+    }
+  },
+  {
+    "name": "Imran Yusuf",
+    "title": "Project Manager for the Department of Biotechnology(DBT)",
+    "description": "Imran Yusuf is a Project Manager for the Department of Biotechnology (DBT) Human Resource Development (HRD) PMU PAN India Capacity Building initiative. He previously led IoT, Electrical, Electronics, and Manufacturing at SIIC IIT-Kanpur and served as an Assistant Professor in Electronics and Communication Engineering. With a strong background in project management and academia, Imran Yusuf is dedicated to advancing capacity building and technological innovation.",
+    "imageUrl": "/assets/images/imran yusuf.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/imran-yusuf-49135121/?originalSubdomain=in"
+    }
+  },
+  {
+    "name": "Alok Tiwari",
+    "title": "CEO of AIVOT AI",
+    "description": "Alok Tiwari is the Founder and CEO of AIVOT AI, specializing in advanced artificial intelligence solutions across diverse industries. With over 21 years of experience in business management, strategic consulting, and investment advisory, Alok holds an MBA from Tippie School of Business, University of Iowa, an Advanced Program in FinTech and Blockchain from IIM Calcutta, and a Master’s degree in Quantum Finance from IIT Kanpur. He is recognized for his work in AI and blockchain, including the development of an AI-based measurement solution, and has managed various businesses and investment strategies.",
+    "imageUrl": "/assets/images/alok tiwari.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/alokkumartiwari/?originalSubdomain=in"
+    }
+  },
+  {
+    "name": "Prof. J. Ram Kumar",
+    "title": "Dean of Infrastructure & Planning, IIT Kanpur",
+    "description": "Prof. J. Ram Kumar is a distinguished academic in the Department of Mechanical Engineering at IIT Kanpur, where he serves as Dean of Infrastructure & Planning. With a PhD from IIT Madras, he specializes in micro/nanomanufacturing, tribology, and manufacturing process modeling. He holds prestigious positions as a Fellow of INAE and Satish Chandra Agarwal Chair Professor at IIT Kanpur. His numerous awards include the Eminent Production Engineer Award and the IETE-Shri Devi Singh Memorial Award. Prof. Kumar is also noted for his leadership in the Imagineering Lab and RuTAG at IIT Kanpur.",
+    "imageUrl": "/assets/images/j ramkumar.jpeg",
+    "socialLinks": {
+      "linkedin": "https://home.iitk.ac.in/~jrkumar/"
+    }
+  },
+  {
+    "name": "Prof. Rajiv Kumar Kapoor",
+    "title": "Faculty Member, Department of ECE, DTU",
+    "description": "Prof. Rajiv Kumar Kapoor is a distinguished academic in the Department of Electronics and Communication Engineering at Delhi Technological University (DTU), where he has been a faculty member since November 2009. He also served as the Principal of the Ambedkar Institute of Advanced Communication Technologies and Research (AIACTR). Prof. Kapoor holds a BE, ME, and PhD in Electronics and Communication Engineering. His research interests span Vision/Speech-based Tracking, Machine Learning, Activity Recognition, Signal Processing, Pattern Recognition, Cognitive Radio, and Biomedical Equipment Design.",
+    "imageUrl": "/assets/images/rajiv kumar kapoor.jpeg",
+    "socialLinks": {
+      "linkedin": "https://www.dtu.ac.in/Web/Departments/Electronics/faculty/rajivkapoor.php"
     }
   }
 ]

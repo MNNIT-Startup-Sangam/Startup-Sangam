@@ -239,7 +239,7 @@ export function TimelineDemo() {
 
   return (
     <div id="events">
-      <h1 className=" text-3xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] font-bold text-center ">
+      <h1 className=" text-3xl sm:text-4xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] font-bold text-center mt-32">
         EVENTS
       </h1>
       <div className="flex flex-col ">

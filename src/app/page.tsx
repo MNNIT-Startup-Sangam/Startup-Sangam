@@ -47,7 +47,7 @@ export default function Home() {
         {/* <p className="text-white text-lg"></p> */}
       </div>
 
-      <div id="timeline" ref={timelineRef} className="mt-48">
+      <div id="timeline" ref={timelineRef} className="mt-40">
         <TimelineDemo />
       </div>
 

@@ -46,7 +46,7 @@ export function Herosection() {
           }}
           className="z-50 flex flex-col justify-center items-center"
         >
-          <motion.p className="pl-5 text-lg md:text-xl md:pl-3 font-semibold self-start text-start bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] ">
+          <motion.p className="pl-5 text-lg md:text-[2rem] md:pl-3 font-semibold self-start text-start bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] ">
             MNNIT
           </motion.p>
           <motion.p className="font-bold text-4xl md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] pb-1">
@@ -58,10 +58,12 @@ export function Herosection() {
           <motion.p className="text-base md:text-lg font-semibold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] pb-4">
             19th-20th September 2024
           </motion.p>
+          <a href="https://forms.office.com/r/TLVSJw4Rk9">
           <button className="px-3 py-2 md:px-4 md:py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-2 md:mt-4">
             <span>Register Now →</span>
             <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
           </button>
+          </a>
         </motion.div>
       </ImagesSlider>
     </section>

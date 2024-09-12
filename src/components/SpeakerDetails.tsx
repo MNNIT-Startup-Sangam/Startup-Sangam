@@ -26,7 +26,9 @@ const ProfileSection: React.FC = () => {
       {profileData.map((profile: ProfileData, index: number) => (
         <div
           key={index}
-          className="flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12"
+          className={`flex flex-col md:flex-row items-center md:items-start md:space-x-12 mb-12 ${
+            index % 2 === 1 ? "md:flex-row-reverse" : ""
+          }`}
         >
           {/* Image and Name Section wrapped inside FollowerPointerCard */}
           <FollowerPointerCard
@@ -83,26 +85,8 @@ const ProfileSection: React.FC = () => {
                   <Linkedin className="w-6 h-6 md:w-8 md:h-8" />
                 </a>
               )}
-              {profile.socialLinks.twitter && (
-                <a
-                  href={profile.socialLinks.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-blue-400 transition"
-                >
-                  <Twitter className="w-6 h-6 md:w-8 md:h-8" />
-                </a>
-              )}
-              {profile.socialLinks.facebook && (
-                <a
-                  href={profile.socialLinks.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white hover:text-blue-600 transition"
-                >
-                  <Facebook className="w-6 h-6 md:w-8 md:h-8" />
-                </a>
-              )}
+             
+           
             </div>
           </div>
         </div>
