@@ -52,9 +52,7 @@ export function Herosection() {
           <motion.p className="font-bold text-4xl md:text-8xl text-center bg-clip-text text-transparent bg-gradient-to-b from-[#d0fcb3] to-[#b2f886] pb-1">
             STARTUP <br /> SANGAM
           </motion.p>
-          <motion.p className="tracking-wide text-base md:text-xl font-semibold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] pb-10">
-            INNOVATIO FUTURI
-          </motion.p>
+         
           <motion.p className="text-base md:text-lg font-semibold text-center bg-clip-text text-transparent bg-gradient-to-b from-[#fefefe] to-[#dadada] pb-4">
             19th-20th September 2024
           </motion.p>

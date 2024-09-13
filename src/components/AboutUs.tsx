@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <div
       id="about"
-      className=" relative w-full bg-black text-[#d0fcb3] p-6 flex flex-row"
+      className=" relative w-full bg-gray-800 text-[#d0fcb3] p-6 flex flex-row"
     >
       <div className="w-full md:w-2/3 relative z-20 overflow-visible">
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
@@ -28,7 +28,7 @@ export default function AboutUs() {
           education institutions. The main objective of the Innovation Cell is
           to cultivate an entrepreneurial spirit among students by supporting
           them in developing their ideas from an early stage. To achieve this,
-          the Ministry launched Institution's Innovation Councils (IICs) across
+          the Ministry launched Institution&apos;s Innovation Councils (IICs) across
           universities and colleges, empowering them to drive innovative
           thinking and actions. IICs focus on practical implementation, guiding
           students to create and develop new solutions through a structured
@@ -36,7 +36,7 @@ export default function AboutUs() {
         </p>
         <h1 className="text-4xl font-bold mb-6">Events Hosted by IIC</h1>
         <div className="mb-4 text-white text-justify">
-          MNNIT's IIC organizes a variety of events to promote innovation and
+          MNNIT&apos;s IIC organizes a variety of events to promote innovation and
           entrepreneurship among students, such as:
           <ul className="list-disc ml-5">
             <li>Workshops on creative thinking and startup strategies</li>
