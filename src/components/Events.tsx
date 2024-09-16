@@ -136,7 +136,7 @@ export function TimelineDemo() {
             spark in our eyes and a fire in our hearts. What’s lacking is the
             precious wisdom that one gains through toil and experience. These
             sessions would showcase renowned business experts imparting wisdom
-            that would pave the way to success. It's a golden opportunity to
+            that would pave the way to success. It&apos;s a golden opportunity to
             learn from those who themselves have navigated the entrepreneurial
             landscape, offering you the inspiration and knowledge needed to
             succeed in your own entrepreneurial journey.
