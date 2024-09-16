@@ -53,5 +53,17 @@
       "twitter": "https://twitter.com/rahulmehta",
       "facebook": "https://www.facebook.com/rahulmehta"
     }
-  }
+  },
+  {
+    "name": "Lavish Choudhary",
+    "title": "Entrepreneur & Philanthropist",
+    "description": "Lavish Choudhary is an Indian Entrepreneur and Philanthropist, known for his involvement in a diverse portfolio of businesses, including Lykans, Play Sports, Tap Tap Go, Ginni Social, Oonzoo, Medixa, Mannat Development, Atlanture Sports, and Matpatra, with operations spanning across India and the UAE. Lavish is dedicated to serving people, and his venture Medixa focuses on affordable healthcare for all, aiming to disrupt the healthcare domain by making medical equipment more accessible. A Gold Medalist in MSc Maths from Chaudhary Charan Singh University, Meerut, Lavish is recognized for his grit and determination, building brands from the ground up while staying connected with his customers, clients, and entrepreneurial community.",
+    "imageUrl": "/assets/images/lavish.png",
+    "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/lavish-choudhary-1a26b026a/",
+        "twitter": "https://x.com/ceo_qfx_tlc",
+        "facebook": "https://www.facebook.com/mrlavishchoudhary/"
+    }
+}
+
 ]
